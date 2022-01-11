@@ -3,9 +3,10 @@ Personal Portfolio Website
 
 ## This project was build with:
 - **HTML5**
-- **SASS/SCSS**
+- **SASS/SCSS/Bootstrap**
 - **Javascript**
 - **GSAP 3**
+- **PHP**
 
 ## Contact Me
 - 📫 **contact@kubaczerepski.pl**
