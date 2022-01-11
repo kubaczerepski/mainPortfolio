@@ -1,0 +1,252 @@
+body,html{
+    background-color: #272727 !important;
+    color: #dcdde1 !important;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+    a{
+        text-decoration: none !important;
+        color: #ecf0f1 !important;
+    }
+    li{
+        padding: 0px 5px;
+    }
+    a:hover{
+        background-color: #dcdde1 !important;
+        color: #272727 !important;
+    }
+    .active{
+        background-color: #dcdde1 !important ;
+        color: #272727 !important;
+    }
+    #welcomeSection{
+        h1,h2{
+            position: relative;
+            font-size: 45px !important;
+            
+        }
+        h1:after{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            content: '';
+            width: 0%;
+            height: 1px;
+            transition: all .3s;
+            background: #dcdde1;
+            color: transparent;
+        }
+        h1:hover:after{
+            width: 100%;
+        }
+        h2:after{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            content: '';
+            width: 0%;
+            height: 1px;
+            transition: all .3s;
+            background: #dcdde1;
+            color: transparent;
+        }
+        h2:hover:after{
+            width: 100%;
+        }
+    }
+    #projectSection{
+        background-color: #272727;
+        border-radius: 10px;
+        flex-wrap: wrap !important;
+        box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07)
+        ;
+        margin-bottom: 100px;
+            h1{
+                font-size: 45px;
+                text-decoration: underline;
+            }
+            #cardCollector{
+                .row{
+                    margin: 10px 0px;
+                    .card{
+                        margin: 10px;
+                        border: 1px solid #dcdde1;
+                        background-color: #272727;
+                        font-weight: bold;
+                        height: 70%;
+                        a{
+                            background-color: #272727;
+                            color:#dcdde1;
+                            border: 1px solid #dcdde1;
+                        }
+                    }
+                }
+            }
+            #arrow_down{
+                cursor: pointer;
+            }
+    }
+    #aboutMeSection{
+        height: 100vh !important;
+        .accordion,.accordion-item,.accordion-button{
+            width: 100% !important;
+            background-color: #272727 !important;
+            color: #dcdde1 !important;
+            border: 1px solid #272727 ;
+            box-shadow:
+            2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+            22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            100px 100px 80px rgba(0, 0, 0, 0.07)
+            ;
+        }
+        i{
+            padding: 5px;
+            font-size: 25px;
+        }
+        #aboutPhoto{
+            border-radius: 50%;
+            background: #272727;
+            color: #ecf0f1;
+        }
+        #arrow_down_about{
+            cursor: pointer;
+        }
+    }
+    #scrollButton,#scrollButtonAbout{
+        padding: 30px 0px;
+        font-size: 30px;
+    }
+    #contactForm{
+        height: 100vh !important;
+        margin: 50px 0px;
+        #formBox{
+            width: 60% !important;
+            background-color: #272727 !important;
+            color: #dcdde1 !important;
+            border: 1px solid #272727;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            input,textarea{
+                background-color: #272727;
+                border: 1px solid #dcdde1;
+                color: #fff !important;
+            }
+            button{
+                background-color: #272727;
+                border: 1px solid #dcdde1;
+            }
+            button:hover{
+                background: #fff;
+                border:1px solid #272727;
+                transition: 0.5 ease-in-out;
+                color: #272727;
+            }
+        }
+    }
+    footer{
+        position: relative;
+        #backToTop{
+            position:absolute;
+            bottom: 30%;
+            right: 5%;
+            i{
+                border: 1px solid #272727;
+                border-radius: 50%;
+                padding: 10px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                cursor: pointer;
+            }
+        }
+    }
+    #backHome{
+        position: relative;
+        background-color: none !important;
+        color: #dcdde1;
+    }
+    #backHome:hover{
+        background-color: none !important;
+    }
+    #backHome:after{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: '';
+        width: 0%;
+        height: 1px;
+        transition: all .3s;
+        background: #dcdde1;
+        color: transparent;
+    }
+    #backHome:hover:after{
+        width: 100%;
+    }
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #555;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #272727;
+    border-radius: 10px;
+    border: 1px solid #555;
+  }
+@media only screen and (max-width: 920px){
+    body{
+        font-size: medium !important;
+        text-align: center !important;
+        #welcomeSection{
+            h1,h2{
+                padding: 10px !important;
+            }
+        }
+        #projectSection{
+            #cardCollector{
+                flex-direction: column !important;
+                padding: 70px;
+                .row{
+                    margin: 10px 0px;
+                }
+            }
+            #arrow_down{
+                display: none !important;
+            }
+        }
+        #aboutMeSection{
+            #arrow_down_about{
+                display: none !important;
+            }
+        }
+        #contactForm{
+            #formBox{
+                width: 90% !important;
+                
+            }
+        }
+        footer{
+            #backToTop{
+                bottom: 50%;
+            }
+        }
+    }
+}
