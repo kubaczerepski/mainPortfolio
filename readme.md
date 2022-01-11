@@ -1,4 +1,4 @@
-# :bust_in_silhouette: Portfolio | Personal Website
+# :bust_in_silhouette: Main Portfolio | Personal Website
 Personal Portfolio Website
 
 ## This project was build with:
